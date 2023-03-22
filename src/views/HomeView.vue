@@ -1,7 +1,4 @@
 <template>
-  <!-- <div class="about">
-    <h1>This is an home page</h1>
-  </div> -->
   <div class="head">
     <div class="title">
       <h3>Hero Boots</h3>
@@ -98,13 +95,6 @@
 *{
   font-family: 'Inria Serif';
 }
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
 .head{
   height: 120px;
   background-color: #4391AA;
@@ -127,15 +117,15 @@
   font-family: Inria Serif;
 }
 .content a::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    display: block;
-    background-color: #FFFFFF;
-    transition: 0.5s;
+  content: '';
+  width: 0%;
+  height: 2px;
+  display: block;
+  background-color: #FFFFFF;
+  transition: 0.5s;
 }
 .content a:hover::after{
-    width: 100%;
+  width: 100%;
 }
 .search{
   display: flex;
@@ -225,6 +215,7 @@
 .shop .con button:hover{
   background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   color: #222;
+  font-weight: 600;
   transition-duration: 0.4s;
 }
 .arrive{
