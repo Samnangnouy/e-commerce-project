@@ -78,6 +78,20 @@
       </div>
     </div>
   </div>
+  <div class="footer">
+    <div class="followup">
+      <p>Follow Us On</p>
+      <img src="@/assets/Images/tik-tok.png">
+      <img src="@/assets/Images/instagram.png">
+      <img src="@/assets/Images/facebook.png">
+      <img src="@/assets/Images/twitter.png">
+    </div>
+    <div class="subscribe">
+      <p>Stay in Touch! Join Our Newletters</p>
+      <input type="text" placeholder="Enter your email">
+      <button>subscribe</button>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -101,15 +115,27 @@
   padding-right: 80px;
 }
 .title h3{
-  font-size: 20px;
+  font-size: 26px;
   color: #fff;
-  font-family: Inria Serif;
 }
 .content a{
   margin: 10px;
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
+  display: inline-block;
+  text-decoration: none;
   font-family: Inria Serif;
+}
+.content a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+.content a:hover::after{
+    width: 100%;
 }
 .search{
   display: flex;
@@ -125,6 +151,8 @@
   border: none;
   outline: none;
   padding-left: 15px;
+  width: 300px;
+  background-color: #D9D9D9;
 }
 .search input::placeholder{
   opacity: 0.5;
@@ -136,7 +164,7 @@
   justify-content: center;
   width: 50px;
   height: 40px;
-  background-color: #fff;
+  background-color: #D9D9D9;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -167,7 +195,7 @@
   background-color: #BC95AD;
 }
 .shop .con{
-  padding-left: 70px;
+  padding-left: 100px;
   padding-top: 30px;
 }
 .shop .con p{
@@ -194,8 +222,8 @@
   cursor: pointer;
 }
 .shop .con button:hover{
-  background-color: #FFFFFF;
-  color: #334C7B;
+  background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  color: #222;
   transition-duration: 0.4s;
 }
 .arrive{
@@ -226,13 +254,13 @@
   justify-content: space-between;
 }
 .detail{
-  margin-top: 30px;
-  width: 400px;
+  margin-top: 20px;
+  width: 32%;
   height: 390px;
   background-color: #BC95AD;
 }
 .detail .pic{
-  width: 400px;
+  width: 100%;
   height: 270px;
 }
 .detail .pic img{
@@ -240,8 +268,8 @@
   height: 100%;
   object-fit: contain;
 }
-.more{
-  width: 400px;
+.detail .more{
+  width: 100%;
   height: 120px;
   background-color: #D9D9D9;
 }
@@ -276,12 +304,71 @@
   cursor: pointer;
 }
 .more .wrapper button:hover{
-  background-color: #FFFFFF;
-  color: #6598BC;
+  /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
   transition-duration: 0.4s;
 }
 .more .wrapper p{
   font-size: 16px;
   font-weight: 600;
+}
+.footer{
+  height: 122px;
+  background-color: #4391AA;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.followup{
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.followup p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.followup img{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.subscribe{
+  margin-right: 70px;
+}
+.subscribe p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.subscribe input{
+  width: 225px;
+  height: 45px;
+  padding-left: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  outline: none;
+}
+.subscribe input::placeholder{
+  color: #222;
+}
+.subscribe button{
+  width: 122px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #4B43AA;
+  border: none;
+  cursor: pointer;
+}
+.subscribe button:hover{
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  transition-duration: 0.4s;
 }
 </style>
