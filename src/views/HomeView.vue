@@ -178,6 +178,7 @@
 .search .icon1 img{
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 .search .icon img{
   width: 30px;
