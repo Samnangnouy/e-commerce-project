@@ -75,6 +75,50 @@
       </div>
     </div>
   </div>
+  <div class="info">
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes4.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="footer">
     <div class="followup">
       <p>Follow Us On</p>
