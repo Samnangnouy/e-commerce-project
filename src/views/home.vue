@@ -119,50 +119,198 @@
         </div>
       </div>
     </div>
-    <!-- <div class="feature">
-      <div class="left">
-        <div class="con">
-          <h3>New Collection</h3>
-          <h1>Summer Collection New Modern Design</h1>
-          <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quidem.</h2>
-          <button>Shop Now</button>
+    <div class="arrive">
+      <h1>Trending Now</h1>
+      <p>POPULAR PRODUCTS</p>
+    </div>
+    <div class="info">
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes4.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
-        <div class="product">
-          <img src="@/assets/Images/jacket.png">
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
         </div>
       </div>
-      <div class="right">
-        <div class="con">
-          <h3>New Collection</h3>
-          <h1>Summer Collection New Modern Design</h1>
-          <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quidem.</h2>
-          <button>Shop Now</button>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
-        <div class="product">
-          <img src="@/assets/Images/jacket.png">
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
         </div>
       </div>
-    </div> -->
-    <!-- <div class="collection">
-      <p>New Collection</p>
-      <h1>Be different in your own way!</h1>
-      <h3>Find your unique style.</h3>
-      <p>Summer Collection New Modern Design</p>
-      <button>Shop Now</button>
-    </div> -->
-    <!-- <div class="men">
-      <div class="left">
-        <div class="img">
-          <img src="@/assets/Images/collection-02.jpg">
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
-        <p>Men</p>
-        <h1>The base collection - Ideal every day.</h1>
-        <button>Shop Now</button>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
       </div>
-      <div class="right">
-        <img src="@/assets/Images/shop-.jpg">
+    </div>
+  </div>
+    <div class="arrive">
+      <h1>Best Selling</h1>
+      <p>SHOP</p>
+    </div>
+    <div class="info">
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes4.jpg">
       </div>
-    </div> -->
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="arrive">
+      <h1>Popular T-Shirts</h1>
+      <p>SUMMER COLLECTION</p>
+    </div>
+    <div class="info">
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes4.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="arrive">
+      <h1>On Sale T-Shirts</h1>
+      <p>SUMMER COLLECTION</p>
+    </div>
+    <div class="info">
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes4.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -266,16 +414,15 @@
     color: transparent;
   }
   .shop{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     height: 278px;
     background-color: #BC95AD;
   }
   .shop .con{
-    padding-left: 100px;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
   .shop .con p{
     color: #fff;
@@ -311,6 +458,7 @@
     background-color: #BC95AD;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,164 +539,6 @@
   .more .wrapper p{
     font-size: 16px;
     font-weight: 600;
-  }
-  .feature{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-  }
-  .feature .left{
-    width: 50%;
-    height: 68vh;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    display: flex;
-    margin-right: 10px;
-    justify-content: center;
-  }
-  .feature .left .con{
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-  .feature .left .con button{
-    width: 140px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .feature .product{
-    margin-top: 50px;
-    width: 100%;
-    height: 280px;
-  }
-  .feature .product img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .feature .right{
-    width: 50%;
-    height: 68vh;
-    margin-left: 10px;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-  }
-  .feature .right .con{
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-  .feature .right .con button{
-    width: 140px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .collection{
-    height: 204px;
-    background-color: #BC95AD;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .collection p{
-    margin-top: 4px;
-    margin-bottom: 0;
-  }
-  .collection h1{
-    margin-top: 10px;
-    margin-bottom: 6px;
-  }
-  .collection h3{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .collection button{
-    width: 140px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .men{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    height: 90vh;
-    display: flex;
-  }
-  .men .left{
-    width: 50%;
-    height: 100%;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-  }
-  .men .left .img{
-    width: 560px;
-    height: 400px;
-  }
-  .men .left p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .men .left h1{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .men .left button{
-    width: 140px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .men .left img{
-    width: 100%;
-    height: 100%;
-  }
-  .men .right{
-    width: 50%;
-    height: 100%;
-    margin-left: 10px;
-  }
-  .men .right img{
-    width: 100%;
-    height: 100%;
   }
   .footer{
     height: 122px;

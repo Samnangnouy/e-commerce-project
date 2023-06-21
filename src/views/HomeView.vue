@@ -28,10 +28,10 @@
     </div>
   </div>
   <div class="arrive">
-    <h1>New Arrival</h1>
+    <h1>Featured Products</h1>
     <p>Summer Collection New Modern Design</p>
   </div>
-  <div class="info">
+  <!-- <div class="info">
     <div class="detail">
       <div class="pic">
         <img src="@/assets/Images/clothe1.jpg">
@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="info">
     <div class="detail">
       <div class="pic">
