@@ -19,12 +19,19 @@
       </div>
     </div>
     <div class="shop">
+      <div class="left">
+        <img src="@/assets/Images/jacket.png">
+      </div>
       <div class="con">
-        <p>Trade-in-offer</p>
+        <p>Limited Time Offer</p>
+        <h1>Special Edition</h1>
         <h1>Super Value deals</h1>
         <h1>All on products</h1>
         <p>Save more with coupons & up to 70% off</p>
-        <button>Shop Now</button>
+        <!-- <button>Shop Now</button> -->
+      </div>
+      <div class="right">
+        <img src="@/assets/Images/jacket.png">
       </div>
     </div>
     <div class="arrive">
@@ -311,6 +318,12 @@
       </div>
     </div>
   </div>
+  <div class="closing">
+    <h1>Review</h1>
+    <p>“ Very good quality T-shirts and lorem ipsum dolor sit amet,</p>
+    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+    <p>labore et dolore magna aliqua quis ipsum! ”</p>
+  </div>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -414,8 +427,19 @@
     color: transparent;
   }
   .shop{
-    height: 278px;
+    height: 370px;
     background-color: #BC95AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .shop .left img{
+    width: 250px;
+    object-fit: contain;
+  }
+  .shop .right img{
+    width: 250px;
+    object-fit: contain;
   }
   .shop .con{
     display: flex;
@@ -540,10 +564,23 @@
     font-size: 16px;
     font-weight: 600;
   }
+  .closing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .closing h1{
+    margin-top: 30px;
+  }
+  .closing p{
+    margin: 0;
+  }
   .footer{
     height: 122px;
     background-color: #4391AA;
     margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
