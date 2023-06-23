@@ -27,6 +27,29 @@
       <button>Shop Now</button>
     </div>
   </div>
+  <div class="trend">
+    <div class="content">
+      <div class="the-title">
+        <h1>20% Off On Tank Tops</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
+        <button>Shop Now</button>
+      </div>
+    </div>
+    <div class="content1">
+      <div class="the-title">
+        <h1>20% Off On Tank Tops</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
+        <button>Shop Now</button>
+      </div>
+    </div>
+    <div class="content2">
+      <div class="the-title">
+        <h1>20% Off On Tank Tops</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
+        <button>Shop Now</button>
+      </div>
+    </div>
+  </div>
   <div class="arrive">
     <h1>Featured Products</h1>
     <p>Summer Collection New Modern Design</p>
@@ -265,11 +288,111 @@
   border-bottom-left-radius: 10px;
   color: transparent;
 }
+.trend{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trend .content{
+  margin-top: 20px;
+  width: 28%;
+  height: 500px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(190, 96, 19, 0.7),rgba(4,9,30,0.7)),url("@/assets/Images/product-06-a.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.trend .content .the-title{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+.trend .content .the-title h1,
+.trend .content .the-title p{
+  color: #ffffff;
+}
+.trend .content .the-title button{
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #6598BC;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+  cursor: pointer;
+}
+.trend .content1{
+  margin-top: 20px;
+  width: 28%;
+  height: 500px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("@/assets/Images/product-09.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.trend .content1 .the-title{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+.trend .content1 .the-title h1,
+.trend .content1 .the-title p{
+  color: #ffffff;
+}
+.trend .content1 .the-title button{
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #6598BC;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+  cursor: pointer;
+}
+.trend .content2{
+  margin-top: 20px;
+  width: 28%;
+  height: 500px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(255, 99, 71, 0.4),rgba(4,9,30,0.7)),url("@/assets/Images/product-08-a.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.trend .content2 .the-title{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+.trend .content2 .the-title h1,
+.trend .content2 .the-title p{
+  color: #ffffff;
+}
+.trend .content2 .the-title button{
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #6598BC;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+  cursor: pointer;
+}
 .shop{
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 15px;
-  margin-bottom: 15px;
   height: 278px;
   background-color: #BC95AD;
 }
