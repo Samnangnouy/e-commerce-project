@@ -55,12 +55,60 @@
                     </select>
                 </div>
                 <form action="/action_page.php">
-                    <input type="number" id="quantity" name="quantity" min="1" max="5">
-                    <input type="submit">
+                    <input class="quantity" type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+                    <input class="submit" type="submit" value="Add to cart">
                 </form>
             </div>
         </div>
     </div>
+    <div class="relate-product">
+      <h1>Related Products</h1>
+      <p>Summer Collection New Modern Design</p>
+    </div>
+    <div class="relate-info">
+    <div class="relate-detail">
+      <div class="relate-pic">
+        <img src="@/assets/Images/clothes4.jpg">
+      </div>
+      <div class="relate-more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="relate-wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="relate-detail">
+      <div class="relate-pic">
+        <img src="@/assets/Images/clothes5.jpg">
+      </div>
+      <div class="relate-more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="relate-wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+    <div class="relate-detail">
+      <div class="relate-pic">
+        <img src="@/assets/Images/clothes6.jpg">
+      </div>
+      <div class="relate-more">
+        <div class="title">
+          <p>Ninedaily Women's 3/4 Sleeve</p>
+        </div>
+        <div class="relate-wrapper">
+          <button>Details</button>
+          <p>32.12$</p>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -166,21 +214,22 @@
   .details{
     margin-top: 15px;
     /* width: 100%; */
-    height: 500px;
-    background-color: rgb(155, 172, 187);
+    height: 400px;
+    /* background-color: rgb(155, 172, 187); */
     padding: 10px;
     display: flex;
   }
   .details .left{
-    width: 50%;
+    width: 60%;
     height: 100%;
     /* background-color: #4B43AA; */
-    border: 1px solid black;
+    /* border: 1px solid blueviolet; */
   }
   .details .left .object{
     width: 100%;
-    height: 60%;
-    /* background-color: red; */
+    height: 65%;
+    background-color: #D9D9D9;
+    /* border: 1px solid black; */
   }
   .details .left .object img{
     width: 100%;
@@ -191,11 +240,27 @@
     width: 100%;
     height: 40%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .details .left .relate .relate-box{
-    width: 25%;
-    height: 100%;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 23%;
+    height: 87%;
+    /* border: 1px solid blueviolet; */
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border-left: none;
+    border-bottom: none;
+  }
+  .details .left .relate .relate-box:nth-child(4){
+    width: 23%;
+    height: 87%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
   }
   .details .left .relate img{
     width: 100%;
@@ -210,12 +275,13 @@
   .details .right .content{
     padding-left: 50px;
   }
-  .details .relate .content .choose-size{
+  .details .right .content .choose-size{
     margin-bottom: 20px;
   }
   .details .right .content .choose-size button{
     width: 140px;
     height: 40px;
+    margin-right: 10px;
     border-radius: 8px;
     background-color: #6598BC;
     font-size: 16px;
@@ -225,10 +291,10 @@
     box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
     cursor: pointer;
   }
-  /* .details .right .content .choose-size select,
-  .details .right .content .choose-size option{
-    width: 100px;
+  .details .right .content .choose-size select{
+    width: 50px;
     height: 40px;
+    padding-left: 10px;
     border-radius: 8px;
     background-color: #6598BC;
     font-size: 16px;
@@ -237,7 +303,123 @@
     border: none;
     box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
     cursor: pointer;
-  } */
+    outline: none;
+  }
+  .details .right .content .quantity{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: #6598BC;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+    cursor: pointer;
+    outline: none;
+  }
+  .details .right .content .submit{
+    width: 140px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: #6598BC;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+    cursor: pointer;
+  }
+  .relate-product{
+  height: 104px;
+  background-color: #BC95AD;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.relate-product h1{
+  margin-top: 0;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.relate-product p{
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+.relate-info{
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.relate-detail{
+  margin-top: 20px;
+  width: 32%;
+  height: 390px;
+  background-color: #BC95AD;
+}
+.relate-detail .relate-pic{
+  width: 100%;
+  height: 270px;
+}
+.relate-detail .relate-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.relate-detail .relate-more{
+  width: 100%;
+  height: 120px;
+  background-color: #D9D9D9;
+}
+.relate-more .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.relate-more .title p{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.relate-more .relate-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.relate-more .relate-wrapper button{
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #6598BC;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+  cursor: pointer;
+}
+.relate-more .relate-wrapper button:hover{
+  /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  transition-duration: 0.4s;
+}
+.relate-more .relate-wrapper p{
+  font-size: 16px;
+  font-weight: 600;
+}
   .footer{
     height: 122px;
     background-color: #4391AA;
