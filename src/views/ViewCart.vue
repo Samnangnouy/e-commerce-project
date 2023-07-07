@@ -1,71 +1,110 @@
 <template>
-    <div class="head">
-      <div class="title">
-        <h3>Hero Boots</h3>
+  <div class="head">
+    <div class="title">
+      <h3>Hero Boots</h3>
+    </div>
+    <div class="content">
+      <a href="#">Home |</a>
+      <a href="#">About |</a>
+      <a href="#">Contact |</a>
+    </div>
+    <div class="search">
+      <div class="icon">
+        <img src="@/assets/Images/search.png" />
       </div>
+      <input type="text" placeholder="Search here" />
+      <div class="icon1">
+        <img src="@/assets/Images/shopping-cart.png" />
+      </div>
+    </div>
+  </div>
+  <div class="relate-product">
+    <h1>Your Cart</h1>
+    <p>Please spend few minute to check your cart again</p>
+  </div>
+  <div class="container">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Item</td>
+          <td>Price</td>
+          <td>Quantity</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="image-box">
+              <div class="image">
+                <img src="@/assets/Images/jacket.png" />
+              </div>
+              <div class="detail-product">
+                <h2>Women Clothes</h2>
+                <h2>Size small</h2>
+              </div>
+            </div>
+          </td>
+          <td>
+            <span>29.80$</span>
+          </td>
+          <td>
+            <span>1</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="coupon">
+    <div class="left">
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
-        <a href="#">Contact |</a>
-      </div>
-      <div class="search">
-        <div class="icon">
-          <img src="@/assets/Images/search.png">
-        </div>
-        <input type="text" placeholder="Search here">
-        <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png">
-        </div>
+        <h1>Apply Coupon</h1>
+        <input type="text" placeholder="Enter your coupun" />
+        <input type="submit" value="Submit" />
       </div>
     </div>
-    <div class="relate-product">
-      <h1>Your Cart</h1>
-      <p>Please spend few minute to check your cart again</p>
-    </div>
-    <div class="container">
-            <table width="100%">
-                <thead>
-                    <tr>
-                        <td>Item</td>
-                        <td>Price</td>
-                        <td>Quantity</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div class="image-box">
-                                <img src="@/assets/Images/clothe3.jpg">
-                                <div class="detail-product">
-                                    <h2>Women Clothes</h2>
-                                    <h2>Size small</h2>
-                                </div>
-                            </div>
-                        </td>
-                        <td>1</td>
-                        <td>1</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    <div class="footer">
-      <div class="followup">
-        <p>Follow Us On</p>
-        <img src="@/assets/Images/tik-tok.png">
-        <img src="@/assets/Images/instagram.png">
-        <img src="@/assets/Images/facebook.png">
-        <img src="@/assets/Images/twitter.png">
-      </div>
-      <div class="subscribe">
-        <p>Stay in Touch! Join Our Newletters</p>
-        <input type="text" placeholder="Enter your email">
-        <button>subscribe</button>
+    <div class="right">
+      <div class="righ-content">
+        <h1>Cart Total</h1>
+        <table>
+          <tr>
+            <td>Company</td>
+            <td>Contact</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>Company</td>
+            <td>Contact</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>Company</td>
+            <td>Contact</td>
+          </tr>
+        </table>
+        <button>Procced to checkout</button>
       </div>
     </div>
-  </template>
-  
-  <style>
-  *{
+  </div>
+  <div class="footer">
+    <div class="followup">
+      <p>Follow Us On</p>
+      <img src="@/assets/Images/tik-tok.png" />
+      <img src="@/assets/Images/instagram.png" />
+      <img src="@/assets/Images/facebook.png" />
+      <img src="@/assets/Images/twitter.png" />
+    </div>
+    <div class="subscribe">
+      <p>Stay in Touch! Join Our Newletters</p>
+      <input type="text" placeholder="Enter your email" />
+      <button>subscribe</button>
+    </div>
+  </div>
+</template>
+
+<style>
+*{
     font-family: 'Inria Serif';
   }
   .head{
@@ -185,26 +224,48 @@ table{
 table td:nth-child(1){
     width: 200px;
     text-align: center;
-    background-color: blue
+    /* background-color: blue; */
 }
 table td:nth-child(1) .image-box{
     width: 100%;
+    height: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-table td:nth-child(1) .image-box img{
-    width: 200px;
+table td:nth-child(1) .image-box .image{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table td:nth-child(1) .image-box .image img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
 }
 table td:nth-child(2){
-    width: 150px;
+    width: 100px;
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
+}
+table td:nth-child(2) span{
+    font-size: 24px;
+    font-weight: bold;
+    /* background-color: blue; */
+    padding: 10px 15px;
 }
 table td:nth-child(3){
     width: 100px;
     text-align: center;
-    background-color: #222;
+    /* background-color: yellow; */
+}
+table td:nth-child(3) span{
+    font-size: 24px;
+    font-weight: bold;
 }
 table thead{
     border: 1px solid #b2bbb2;
@@ -223,6 +284,72 @@ table tbody tr td{
 table tbody td{
     font-size: 15px;
 }
+.coupon{
+  width: 100%;
+  /* background-color: red; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  display: flex;
+  align-items: baseline;
+}
+.coupon .left{
+  width: 40%;
+  /* background-color: blue; */
+}
+.coupon .left .content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.coupon .left .content input[type="text"]{
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+  background-color: #D18585;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 3px #fcf1f1;
+}
+.coupon .left .content input[type="submit"]{
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  outline: none;
+  background-color: #D18585;
+  border: none;
+  box-shadow: 2px 3px #fcf1f1;
+}
+.coupon .right{
+  width: 50%;
+  /* background-color: blue; */
+  margin-left: 40px;
+  background-color: #4391AA;
+  display: flex;
+  justify-content: center;
+
+}
+.coupon .right .righ-content{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+.coupon .right .righ-content table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.coupon .right .righ-content table td{
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 8px;
+}
   .footer{
     height: 122px;
     background-color: #4391AA;
@@ -231,6 +358,14 @@ table tbody td{
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .coupon .right .righ-content button{
+    width: 300px;
+    height: 52px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #D18585;
+    border: none;
   }
   .followup{
     display: flex;
@@ -283,4 +418,4 @@ table tbody td{
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     transition-duration: 0.4s;
   }
-  </style>
+</style>
