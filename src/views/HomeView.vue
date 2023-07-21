@@ -18,35 +18,35 @@
       </div>
     </div>
   </div>
-  <div class="shop">
+  <div class="shop1">
     <div class="con">
       <p>Trade-in-offer</p>
       <h1>Super Value deals</h1>
       <h1>All on products</h1>
       <p>Save more with coupons & up to 70% off</p>
-      <button>Shop Now</button>
+      <router-link to="/product"><button>Shop Now</button></router-link>
     </div>
   </div>
   <div class="trend">
-    <div class="content">
+    <div class="content3">
       <div class="the-title">
         <h1>20% Off On Tank Tops</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
-        <button>Shop Now</button>
+        <router-link to="/product"><button>Shop Now</button></router-link>
       </div>
     </div>
     <div class="content1">
       <div class="the-title">
         <h1>20% Off On Tank Tops</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
-        <button>Shop Now</button>
+        <router-link to="/product"><button>Shop Now</button></router-link>
       </div>
     </div>
     <div class="content2">
       <div class="the-title">
         <h1>20% Off On Tank Tops</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda? Non praesentium accusantium quod sit?</p>
-        <button>Shop Now</button>
+        <router-link to="/product"><button>Shop Now</button></router-link>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -122,7 +122,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -136,7 +136,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -296,7 +296,7 @@
   align-items: center;
   justify-content: center;
 }
-.trend .content{
+.trend .content3{
   margin-top: 20px;
   width: 28%;
   height: 500px;
@@ -306,16 +306,16 @@
   background-size: cover;
   position: relative;
 }
-.trend .content .the-title{
+.trend .content3 .the-title{
   position: absolute;
   bottom: 30px;
   left: 20px;
 }
-.trend .content .the-title h1,
-.trend .content .the-title p{
+.trend .content3 .the-title h1,
+.trend .content3 .the-title p{
   color: #ffffff;
 }
-.trend .content .the-title button{
+.trend .content3 .the-title button{
   width: 140px;
   height: 40px;
   border-radius: 8px;
@@ -389,29 +389,29 @@
   box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
   cursor: pointer;
 }
-.shop{
+.shop1{
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 15px;
   height: 278px;
   background-color: #BC95AD;
 }
-.shop .con{
+.shop1 .con{
   padding-left: 100px;
   padding-top: 30px;
 }
-.shop .con p{
+.shop1 .con p{
   color: #fff;
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
 }
-.shop .con h1{
+.shop1 .con h1{
   font-weight: 550;
   margin-bottom: 0px;
   margin-top: 10px;
 }
-.shop .con button{
+.shop1 .con button{
   width: 224px;
   height: 58px;
   border-radius: 10px;
@@ -423,7 +423,7 @@
   box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
   cursor: pointer;
 }
-.shop .con button:hover{
+.shop1 .con button:hover{
   background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   color: #222;
   font-weight: 600;

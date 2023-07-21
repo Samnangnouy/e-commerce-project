@@ -28,7 +28,7 @@
       <h1>Super Value deals</h1>
       <h1>All on products</h1>
       <p>Save more with coupons & up to 70% off</p>
-      <!-- <button>Shop Now</button> -->
+      <button>Shop Now</button>
     </div>
     <div class="right">
       <img src="@/assets/Images/jacket.png">
@@ -48,7 +48,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -62,7 +62,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -76,7 +76,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -92,7 +92,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -106,7 +106,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -120,7 +120,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -432,6 +432,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .shop .left img{
   width: 250px;

@@ -28,7 +28,7 @@
         <h1>Super Value deals</h1>
         <h1>All on products</h1>
         <p>Save more with coupons & up to 70% off</p>
-        <!-- <button>Shop Now</button> -->
+        <button>Shop Now</button>
       </div>
       <div class="right">
         <img src="@/assets/Images/jacket.png">

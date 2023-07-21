@@ -39,25 +39,15 @@
             </div>
         </div>
         <div class="right">
-            <div class="content">
-                <h1>Home | T-shirt</h1>
-                <h1>Women's fashion Style</h1>
-                <h1>78.89$</h1>
-                <div class="choose-size">
-                    <button>Choose size</button>
-                    <select id="cars" name="carlist" form="carform">
-                        <option value="volvo">M</option>
-                        <option value="saab">S</option>
-                        <option value="opel">XS</option>
-                        <option value="audi">L</option>
-                        <option value="audi">XL</option>
-                        <option value="audi">XXL</option>
-                    </select>
-                </div>
-                <form action="/action_page.php">
-                    <input class="quantity" type="number" id="quantity" name="quantity" min="1" max="5" value="1">
-                    <input class="submit" type="submit" value="Add to cart">
-                </form>
+            <div class="add-item">
+              <h3>Item added to cart</h3>
+              <h3>My Cart</h3>
+            </div>
+            <h4>Favourite Cotton Jersy Short</h4>
+            <h4>Qty: 1 | $20</h4>
+            <div class="button">
+              <button>View Cart</button>
+              <button>Checkout</button>
             </div>
         </div>
     </div>
@@ -270,67 +260,35 @@
   .details .right{
     width: 50%;
     height: 100%;
-    /* background-color: #4B43AA; */
+    background-color: #BC95AD;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .details .right .content{
-    padding-left: 50px;
+  .right .add-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
   }
-  .details .right .content .choose-size{
-    margin-bottom: 20px;
-  }
-  .details .right .content .choose-size button{
-    width: 140px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
+  .right .button button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(111, 63, 156);
     border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+    font-size: 18px;
+    color: #ffffff;
     cursor: pointer;
   }
-  .details .right .content .choose-size select{
-    width: 50px;
-    height: 40px;
-    padding-left: 10px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
+  .right .button button:nth-child(2){
+    width: 200px;
+    height: 50px;
+    background-color: rgb(94, 47, 138);
     border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    cursor: pointer;
-    outline: none;
-  }
-  .details .right .content .quantity{
-    width: 40px;
-    height: 40px;
-    padding-left: 10px;
-    margin-right: 10px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
-    cursor: pointer;
-    outline: none;
-  }
-  .details .right .content .submit{
-    width: 140px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 8px;
-    background-color: #6598BC;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border: none;
-    box-shadow: 5px 5px 5px 1px rgba(0,0,0,.6);
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
     cursor: pointer;
   }
   .relate-product{
