@@ -4,8 +4,8 @@
         <h3>Hero Boots</h3>
       </div>
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
+        <router-link to="/"><a href="#">Home |</a></router-link>
+        <router-link to="/product"><a href="#">Product |</a></router-link>
         <a href="#">Contact |</a>
       </div>
       <div class="search">
@@ -14,7 +14,7 @@
         </div>
         <input type="text" placeholder="Search here" />
         <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png" />
+          <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
         </div>
       </div>
     </div>
@@ -22,16 +22,16 @@
       <h1>Your Shipping Information</h1>
       <p>Please spend few minute to complete your shipping information here</p>
     </div>
-    <div class="customer">
-        <div class="customer-info">
-            <div class="email">
+    <div class="customer2">
+        <div class="customer2-info">
+            <div class="email2">
                 <h3>Customer Information</h3>
-                <div class="cus-info">
+                <div class="cus2-info">
                     <h3>Shipping address 12 waldo Point Road, Mishauken, NY 11200</h3>
                     <a href="">Edit</a>
                 </div>
             </div>
-            <div class="shipping">
+            <div class="shipping2">
                 <h3>Shipping Method</h3>
                 <input type="radio" value="HTML">
                 <label for="html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPS Ground&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $2.20</label><br>
@@ -72,8 +72,8 @@
         </div>
         </div>
     </div>
-    <button class="return">Return to Customer Info</button>
-    <button class="continue">Continue to Payment Method</button>
+    <router-link to="/CustomerInfo"><button class="return">Return to Customer Info</button></router-link>
+    <router-link to="/Payment"><button class="continue">Continue to Payment Method</button></router-link>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -197,18 +197,18 @@
     color: #FFFFFF;
     margin-top: 0;
   }
-  .customer{
+  .customer2{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     display: flex;
   }
-  .customer .customer-info{
+  .customer2 .customer2-info{
     width: 55%;
     background-color: #BC95AD;
     margin-right: 10px;
   }
-  .customer .customer-info .email{
+  .customer2 .customer2-info .email2{
     border: 1px solid black;
     border-left: none;
     border-right: none;
@@ -216,17 +216,17 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  .customer .customer-info .email .cus-info{
+  .customer2 .customer2-info .email2 .cus2-info{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
   }
-  .customer .customer-info .shipping{
+  .customer2 .customer2-info .shipping2{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 18px;
   }
-  .shipping input{
+  .shipping2 input{
     width: 40px;
     margin-bottom: 20px;
   }

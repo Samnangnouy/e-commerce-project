@@ -4,8 +4,8 @@
         <h3>Hero Boots</h3>
       </div>
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
+        <router-link to="/"><a href="#">Home |</a></router-link>
+        <router-link to="/product"><a href="#">Product |</a></router-link>
         <a href="#">Contact |</a>
       </div>
       <div class="search">
@@ -14,7 +14,7 @@
         </div>
         <input type="text" placeholder="Search here" />
         <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png" />
+          <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
         </div>
       </div>
     </div>
@@ -22,28 +22,28 @@
       <h1>Payment Details</h1>
       <p>Please spend few minute to complete your shipping payment information here</p>
     </div>
-    <div class="customer">
-        <div class="customer-info">
-            <div class="email">
-                <div class="cus-info">
+    <div class="customer3">
+        <div class="customer3-info">
+            <div class="email3">
+                <div class="cus3-info">
                     <h3>Shipping address 12 waldo Point Road, Mishauken, NY 11200</h3>
                     <a href="">Edit</a>
                 </div>
-                <div class="cus-info">
+                <div class="cus3-info">
                     <h3>Shipping Method UPS Ground, $2.20</h3>
                     <a href="">Edit</a>
                 </div>
             </div>
-            <div class="shipping">
+            <div class="shipping3">
                 <h3>Payment Method</h3>
-                <input class="input1" type="text" placeholder="Card Number">
-                <div class="coun">
+                <input class="input3" type="text" placeholder="Card Number">
+                <div class="coun3">
                     <input type="text" placeholder="Name on card">
                     <input type="text" placeholder="MM/YY">
                     <input type="text" placeholder="CVV">
                 </div>
             </div>
-            <div class="shipping1">
+            <div class="shipping3">
                 <h3>Billing Address</h3>
                 <div class="billing">
                     <input type="radio" value="HTML">
@@ -89,8 +89,8 @@
         </div>
         </div>
     </div>
-    <button class="return">Return to Customer Info</button>
-    <button class="continue">Continue to Payment Method</button>
+    <router-link to="/Shipping"><button class="return">Return to Shipping Info</button></router-link>
+    <router-link to="/Checkout"><button class="continue">Continue to Checkout Method</button></router-link>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -214,23 +214,23 @@
     color: #FFFFFF;
     margin-top: 0;
   }
-  .customer{
+  .customer3{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     display: flex;
   }
-  .customer .customer-info{
+  .customer3 .customer3-info{
     width: 55%;
     background-color: #BC95AD;
     margin-right: 10px;
   }
-  .customer .customer-info .email{
+  .customer3 .customer3-info .email3{
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .customer .customer-info .email .cus-info{
+  .customer3 .customer3-info .email3 .cus3-info{
     border: 1px solid black;
     border-left: none;
     border-right: none;
@@ -238,7 +238,7 @@
     align-items: baseline;
     justify-content: space-between;
   }
-  .customer .customer-info .email .cus-info:nth-child(2){
+  .customer3 .customer3-info .email3 .cus3-info:nth-child(2){
     border: 1px solid black;
     border-left: none;
     border-right: none;
@@ -247,17 +247,17 @@
     align-items: baseline;
     justify-content: space-between;
   }
-  .customer .customer-info .shipping{
+  .customer3 .customer3-info .shipping3{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 18px;
     width: 100%;
   }
-  .customer .customer-info .shipping h3{
+  .customer3 .customer3-info .shipping3 h3{
     margin-bottom: 10px;
     margin-right: 20px;
   }
-  .customer .customer-info .shipping .input1{
+  .customer3 .customer3-info .shipping3 .input3{
     margin-right: 10px;
     width: 94%;
     height: 30px;
@@ -265,31 +265,31 @@
     padding-left: 20px;
     outline: none;
   }
-  .customer .customer-info .shipping .coun{
+  .customer3 .customer3-info .shipping3 .coun3{
     margin-right: 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .coun input{
+  .coun3 input{
     width: 200px;
     height: 30px;
     outline: none;
     margin-top: 10px;
   }
-  .customer .customer-info .shipping1 h3{
+  .customer3 .customer-info3 .shipping3 h3{
     margin-bottom: 10px;
     margin-right: 20px;
     border-top: 1px solid black;
   }
-  .customer .customer-info .shipping1{
+  .customer3 .customer3-info .shipping3{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 18px;
     width: 100%;
     margin-bottom: 10px;
   }
-  .customer .customer-info .shipping1 .billing{
+  .customer3 .customer3-info .shipping3 .billing{
     margin-right: 20px;
     height: 30px;
     border: 1px solid black;
@@ -297,7 +297,7 @@
     align-items: center;
     background-color: #ffffff;
   }
-  .customer .customer-info .shipping1 .billing:nth-child(3){
+  .customer3 .customer3-info .shipping3 .billing:nth-child(3){
     margin-right: 20px;
     height: 30px;
     border: 1px solid black;
@@ -306,7 +306,7 @@
     align-items: center;
     background-color: #ffffff;
   }
-  .customer .customer-info .shipping1 .billing input{
+  .customer3 .customer3-info .shipping3 .billing input{
     margin-right: 20px;
     margin-left: 20px;
   }

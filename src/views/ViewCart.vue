@@ -4,8 +4,8 @@
       <h3>Hero Boots</h3>
     </div>
     <div class="content">
-      <a href="#">Home |</a>
-      <a href="#">About |</a>
+      <router-link to="/"><a href="#">Home |</a></router-link>
+      <router-link to="/product"><a href="#">Product |</a></router-link>
       <a href="#">Contact |</a>
     </div>
     <div class="search">
@@ -14,15 +14,15 @@
       </div>
       <input type="text" placeholder="Search here" />
       <div class="icon1">
-        <img src="@/assets/Images/shopping-cart.png" />
+        <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
       </div>
     </div>
   </div>
-  <div class="relate-product">
+  <div class="relate-product1">
     <h1>Your Cart</h1>
     <p>Please spend few minute to check your cart again</p>
   </div>
-  <div class="container">
+  <div class="container2">
     <table width="100%">
       <thead>
         <tr>
@@ -38,7 +38,7 @@
               <div class="image">
                 <img src="@/assets/Images/jacket.png" />
               </div>
-              <div class="detail-product">
+              <div class="detail-product2">
                 <h2>Women Clothes</h2>
                 <h2>Size small</h2>
               </div>
@@ -83,7 +83,7 @@
             <td>Contact</td>
           </tr>
         </table>
-        <button>Procced to checkout</button>
+        <router-link to="/CustomerInfo"><button>Procced to checkout</button></router-link>
       </div>
     </div>
   </div>
@@ -190,7 +190,7 @@
     color: transparent;
   }
   
-  .relate-product{
+  .relate-product1{
   height: 104px;
   background-color: #BC95AD;
   margin-top: 15px;
@@ -201,17 +201,17 @@
   align-items: center;
   justify-content: center;
 }
-.relate-product h1{
+.relate-product1 h1{
   margin-top: 0;
   font-size: 32px;
   margin-bottom: 10px;
 }
-.relate-product p{
+.relate-product1 p{
   font-size: 18px;
   color: #FFFFFF;
   margin-top: 0;
 }
-.container{
+.container2{
     margin: 20px 20px;
 }
 table{

@@ -4,8 +4,8 @@
         <h3>Hero Boots</h3>
       </div>
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
+        <router-link to="/"><a href="#">Home |</a></router-link>
+        <router-link to="/product"><a href="#">Product |</a></router-link>
         <a href="#">Contact |</a>
       </div>
       <div class="search">
@@ -14,7 +14,7 @@
         </div>
         <input type="text" placeholder="Search here">
         <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png">
+          <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -89,7 +89,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -103,7 +103,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>

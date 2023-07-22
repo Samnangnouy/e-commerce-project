@@ -4,8 +4,8 @@
       <h3>Hero Boots</h3>
     </div>
     <div class="content">
-      <a href="#">Home |</a>
-      <a href="#">About |</a>
+      <router-link to="/"><a href="#">Home |</a></router-link>
+      <router-link to="/product"><a href="#">Product |</a></router-link>
       <a href="#">Contact |</a>
     </div>
     <div class="search">
@@ -14,7 +14,7 @@
       </div>
       <input type="text" placeholder="Search here">
       <div class="icon1">
-        <img src="@/assets/Images/shopping-cart.png">
+        <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
       </div>
     </div>
   </div>
@@ -148,7 +148,7 @@
         <h3>New Collection</h3>
         <h1>Summer Collection New Modern Design</h1>
         <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quidem.</h2>
-        <button>Shop Now</button>
+        <router-link to="/product"><button>Shop Now</button></router-link>
       </div>
       <div class="product">
         <img src="@/assets/Images/jacket.png">
@@ -159,7 +159,7 @@
         <h3>New Collection</h3>
         <h1>Summer Collection New Modern Design</h1>
         <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quidem.</h2>
-        <button>Shop Now</button>
+        <router-link to="/product"><button>Shop Now</button></router-link>
       </div>
       <div class="product">
         <img src="@/assets/Images/jacket.png">
@@ -171,7 +171,7 @@
     <h1>Be different in your own way!</h1>
     <h3>Find your unique style.</h3>
     <p>Summer Collection New Modern Design</p>
-    <button>Shop Now</button>
+    <router-link to="/product"><button>Shop Now</button></router-link>
   </div>
   <div class="men">
     <div class="left">
@@ -180,7 +180,7 @@
       </div>
       <p>Men</p>
       <h1>The base collection - Ideal every day.</h1>
-      <button>Shop Now</button>
+      <router-link to="/product"><button>Shop Now</button></router-link>
     </div>
     <div class="right">
       <img src="@/assets/Images/shop-.jpg">

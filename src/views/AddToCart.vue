@@ -4,8 +4,8 @@
         <h3>Hero Boots</h3>
       </div>
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
+        <router-link to="/"><a href="#">Home |</a></router-link>
+        <router-link to="/product"><a href="#">Product |</a></router-link>
         <a href="#">Contact |</a>
       </div>
       <div class="search">
@@ -14,7 +14,7 @@
         </div>
         <input type="text" placeholder="Search here">
         <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png">
+          <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
         </div>
       </div>
     </div>
@@ -45,9 +45,9 @@
             </div>
             <h4>Favourite Cotton Jersy Short</h4>
             <h4>Qty: 1 | $20</h4>
-            <div class="button">
-              <button>View Cart</button>
-              <button>Checkout</button>
+            <div class="button1">
+              <router-link to="/viewCarts"><button class="view">View Cart</button></router-link>
+              <router-link to="/CustomerInfo"><button class="checkout">Checkout</button></router-link>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -79,7 +79,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -93,7 +93,7 @@
           <p>Ninedaily Women's 3/4 Sleeve</p>
         </div>
         <div class="relate-wrapper">
-          <button>Details</button>
+          <router-link to="/detail"><button>Details</button></router-link>
           <p>32.12$</p>
         </div>
       </div>
@@ -272,7 +272,7 @@
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
   }
-  .right .button button{
+  .right .button1 .view{
     width: 200px;
     height: 50px;
     background-color: rgb(111, 63, 156);
@@ -281,7 +281,7 @@
     color: #ffffff;
     cursor: pointer;
   }
-  .right .button button:nth-child(2){
+  .right .button1 .checkout{
     width: 200px;
     height: 50px;
     background-color: rgb(94, 47, 138);

@@ -1,51 +1,51 @@
 <template>
-  <div class="head">
-    <div class="title">
+  <div class="head1">
+    <div class="title1">
       <h3>Order 1234567890 Confirmation</h3>
     </div>
   </div>
-  <div class="container">
+  <div class="container4">
     <h4>hello@sitename.com</h4>
     <h4>to me</h4>
-    <div class="content1">
+    <div class="content4">
       <h2>Hero Boots</h2>
       <h4>Thank you for your purchese!</h4>
       <h5>
         Hi Michael, we're getting your order ready to be shipped. We will notify
         you when it has been sent.
       </h5>
-      <div class="visit">
-        <button>View your order</button>
+      <div class="visit4">
+        <router-link to="/viewCarts"><button class="btn-order">View your order</button></router-link>
         <h4>Or</h4>
-        <a href="#">Visit our store</a>
+        <router-link to="/product"><a class="store" href="#">Visit our store</a></router-link>
       </div>
     </div>
   </div>
-  <div class="order-sum">
+  <div class="order-sum4">
     <h3>Order Summary</h3>
-    <div class="detail-pro">
-      <div class="product">
-        <div class="pic">
+    <div class="detail-pro4">
+      <div class="product4">
+        <div class="pic4">
           <img src="@/assets/Images/clothes4.jpg" />
         </div>
-        <div class="pro-detail">
+        <div class="pro-detail4">
           <h4>Bird Nerd T-shirt</h4>
           <h4>Size small</h4>
         </div>
       </div>
-      <div class="price">
+      <div class="price4">
         <h3>$20.00</h3>
       </div>
     </div>
   </div>
-  <div class="subtotal">
-    <div class="sub-title">
+  <div class="subtotal4">
+    <div class="sub-title4">
       <h4>Subtotal</h4>
       <h4>Shipping</h4>
       <h4>tax</h4>
       <h4>Total</h4>
     </div>
-    <div class="sub-price">
+    <div class="sub-price4">
       <h4>$20.00</h4>
       <h4>$2.20</h4>
       <h4>$1.40</h4>
@@ -90,7 +90,7 @@
 * {
   font-family: "Inria Serif";
 }
-.head {
+.head1{
   height: 70px;
   background-color: #4391aa;
   display: flex;
@@ -99,36 +99,36 @@
   padding-left: 80px;
   padding-right: 80px;
 }
-.title h3 {
+.title1 h3 {
   font-size: 20px;
   color: #fff;
 }
-.container {
+.container4 {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   margin: 20px;
 }
-.container .content1 {
+.container4 .content4 {
   margin-left: 40px;
 }
-.container .content1 h2,
-.container .content1 h4,
-.container .content1 h5 {
+.container4 .content4 h2,
+.container4 .content4 h4,
+.container4 .content4 h5 {
   margin-left: 0;
   margin-bottom: 6px;
   margin-top: 10px;
 }
-.container h4 {
+.container4 h4 {
   margin-bottom: 0;
   margin-top: 4px;
   margin-left: 20px;
 }
-.container .visit {
+.container4 .visit4 {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-.container .visit button {
+.container4 .visit4 .btn-order {
   width: 200px;
   height: 37px;
   background-color: rgb(168, 119, 214);
@@ -139,31 +139,31 @@
   cursor: pointer;
   margin-right: 20px;
 }
-.container .visit a {
+.container4 .visit4 a .store{
   margin-left: 20px;
   font-size: 18px;
 }
-.order-sum {
+.order-sum4 {
   margin: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
-.order-sum h3 {
+.order-sum4 h3 {
   margin-left: 60px;
 }
-.order-sum .detail-pro {
+.order-sum4 .detail-pro4 {
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.order-sum .detail-pro .product {
+.order-sum4 .detail-pro4 .product4 {
   width: 50%;
   display: flex;
   align-items: center;
 }
-.order-sum .detail-pro .product .pic {
+.order-sum4 .detail-pro4 .product4 .pic4 {
   width: 300px;
   height: 200px;
   border: 1px solid black;
@@ -173,15 +173,15 @@
   align-items: center;
   justify-content: center;
 }
-.order-sum .detail-pro .product img {
+.order-sum4 .detail-pro4 .product4 img {
   width: 90%;
   height: 90%;
   object-fit: contain;
 }
-.order-sum .detail-pro .product .pro-detail {
+.order-sum4 .detail-pro4 .product4 .pro-detail4 {
   margin-left: 20px;
 }
-.subtotal {
+.subtotal4 {
   margin-right: 60px;
   margin-left: 20px;
   display: flex;
@@ -189,10 +189,10 @@
   justify-content: flex-end;
   border-bottom: 1px solid black;
 }
-.subtotal .sub-title {
+.subtotal4 .sub-title4 {
   margin-right: 100px;
 }
-.subtotal .sub-price {
+.subtotal4 .sub-price4 {
   margin-left: 100px;
 }
 h3{

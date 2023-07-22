@@ -4,8 +4,8 @@
         <h3>Hero Boots</h3>
       </div>
       <div class="content">
-        <a href="#">Home |</a>
-        <a href="#">About |</a>
+        <router-link to="/"><a href="#">Home |</a></router-link>
+        <router-link to="/product"><a href="#">Product |</a></router-link>
         <a href="#">Contact |</a>
       </div>
       <div class="search">
@@ -14,7 +14,7 @@
         </div>
         <input type="text" placeholder="Search here" />
         <div class="icon1">
-          <img src="@/assets/Images/shopping-cart.png" />
+          <router-link to="/carts"><img src="@/assets/Images/shopping-cart.png"></router-link>
         </div>
       </div>
     </div>
@@ -22,28 +22,28 @@
       <h1>Your Information</h1>
       <p>Please spend few minute to complete your information here</p>
     </div>
-    <div class="customer">
-        <div class="customer-info">
-            <div class="email">
+    <div class="customer1">
+        <div class="customer1-info">
+            <div class="email1">
                 <h2>Customer Information</h2>
-                <div class="title">
+                <div class="title1">
                     <h2>Already have an account?</h2>
                     <a href="">Login</a>
                 </div>
             </div>
             <input class="input1" type="text" placeholder="Your email">
-            <div class="shipping">
+            <div class="shipping1">
               <h1>Shipping Address</h1>
-              <div class="name">
+              <div class="name1">
                 <input type="text" placeholder="First Name">
                 <input type="text" placeholder="Last Name">
               </div>
               <input class="input1" type="text" placeholder="Company">
-              <div class="add">
+              <div class="add1">
                 <input type="text" placeholder="Address">
                 <input type="text" placeholder="Apt">
               </div>
-              <div class="coun">
+              <div class="coun1">
                 <input type="text" placeholder="Country">
                 <input type="text" placeholder="State">
                 <input type="text" placeholder="Zip">
@@ -79,8 +79,8 @@
         </div>
         </div>
     </div>
-    <button class="return">Return to cart</button>
-    <button class="continue">Continue to Shipping Method</button>
+    <router-link to="/viewCarts"><button class="return">Return to cart</button></router-link>
+    <router-link to="/Shipping"><button class="continue">Continue to Shipping Method</button></router-link>
     <div class="footer">
       <div class="followup">
         <p>Follow Us On</p>
@@ -204,29 +204,29 @@
     color: #FFFFFF;
     margin-top: 0;
   }
-  .customer{
+  .customer1{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     display: flex;
   }
-  .customer .customer-info{
+  .customer1 .customer1-info{
     width: 55%;
     background-color: #BC95AD;
     margin-right: 10px;
   }
-  .customer .customer-info .email{
+  .customer1 .customer1-info .email1{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
   }
-  .customer .customer-info .email .title{
+  .customer1 .customer1-info .email1 .title1{
     display: flex;
     align-items: baseline;
   }
-  .customer .customer-info .input1{
+  .customer1 .customer1-info .input1{
     margin-left: 10px;
     margin-right: 10px;
     width: 94%;
@@ -235,25 +235,25 @@
     padding-left: 20px;
     outline: none;
   }
-  .shipping h1{
+  .shipping1 h1{
     margin-left: 10px;
   }
-  .name,
-  .add,
-  .coun{
+  .name1,
+  .add1,
+  .coun1{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  .name input{
+  .name1 input{
     width: 45%;
     height: 30px;
     padding-left: 10px;
     outline: none;
     margin-bottom: 10px;
   }
-  .add input:nth-child(1){
+  .add1 input:nth-child(1){
     width: 60%;
     height: 30px;
     padding-left: 10px;
@@ -262,7 +262,7 @@
     margin-top: 10px;
     margin-left: 3px;
   }
-  .add input:nth-child(2){
+  .add1 input:nth-child(2){
     width: 30%;
     height: 30px;
     padding-left: 10px;
@@ -271,7 +271,7 @@
     margin-top: 10px;
     margin-left: 7px;
   }
-  .coun input{
+  .coun1 input{
     width: 200px;
     height: 30px;
     outline: none;
