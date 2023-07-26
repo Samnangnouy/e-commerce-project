@@ -6,7 +6,7 @@
     <div class="content">
       <router-link to="/"><a href="#">Home |</a></router-link>
       <router-link to="/product"><a href="#">Product |</a></router-link>
-      <a href="#">Contact |</a>
+      <router-link to="/contact"><a href="#">Contact |</a></router-link>
     </div>
     <div class="search">
       <div class="icon">
