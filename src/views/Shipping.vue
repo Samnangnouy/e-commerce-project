@@ -28,7 +28,8 @@
                 <h3>Customer Information</h3>
                 <div class="cus2-info">
                     <h3>Shipping address 12 waldo Point Road, Mishauken, NY 11200</h3>
-                    <a href="">Edit</a>
+                    <router-link to="CustomerInfo">Edit</router-link>
+                    <!-- <a href="">Edit</a> -->
                 </div>
             </div>
             <div class="shipping2">

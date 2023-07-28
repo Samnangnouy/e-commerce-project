@@ -27,11 +27,11 @@
             <div class="email3">
                 <div class="cus3-info">
                     <h3>Shipping address 12 waldo Point Road, Mishauken, NY 11200</h3>
-                    <a href="">Edit</a>
+                    <a href="/CustomerInfo">Edit</a>
                 </div>
                 <div class="cus3-info">
                     <h3>Shipping Method UPS Ground, $2.20</h3>
-                    <a href="">Edit</a>
+                    <router-link to="/Shipping">Edit</router-link>
                 </div>
             </div>
             <div class="shipping3">

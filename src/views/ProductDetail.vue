@@ -56,7 +56,7 @@
                 </div>
                 <form action="/action_page.php">
                     <input class="quantity" type="number" id="quantity" name="quantity" min="1" max="5" value="1">
-                    <input class="submit" type="submit" value="Add to cart">
+                    <router-link to="/carts"><input class="submit" type="submit" value="Add to cart"></router-link>
                 </form>
             </div>
         </div>

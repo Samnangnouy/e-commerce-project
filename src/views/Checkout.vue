@@ -54,7 +54,7 @@
                 </div>
                 <div class="shipping-add">
                     <h4>Payment Method</h4>
-                    <img src="@/assets/Images/tik-tok.png">
+                    <img src="@/assets/Images/aba.png">
                     <h4>Ending in 3217 - $23.60</h4>
                 </div>
             </div> 
